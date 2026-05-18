@@ -1,0 +1,69 @@
+{
+  "name": "origami_creases",
+  "version": "1.0.0",
+  "description": "Paper folding mathematics, crease patterns, tessellations, and origami-inspired generative art",
+  "category": "geometry/folding",
+  "tags": ["origami", "crease_pattern", "tessellation", "folding", "paper", "geometry", "rigid_origami", "miura", "sacred_geometry", "deployable"],
+  "primary_concepts": [
+    "Crease patterns (CP) with mountain/valley assignment",
+    "Maekawa and Kawasaki theorems",
+    "Rigid origami constraints",
+    "Miura-ori tessellation",
+    "Curved folding (David Huffman)",
+    "TreeMaker / circle packing",
+    "Developable surfaces",
+    "Flat-foldability verification"
+  ],
+  "blend_suggestions": [
+    "sacred_geometry",
+    "islamic_tiling",
+    "crystalline",
+    "neural_architecture",
+    "bioluminescent_systems",
+    "caustic_networks",
+    "tesselations"
+  ],
+  "code_templates": [
+    "code/basic_crease.glsl",
+    "code/miura_ori.glsl",
+    "code/curved_crease.glsl",
+    "code/treemaker.glsl",
+    "code/emotional_fold.glsl",
+    "code/crumple_pattern.glsl",
+    "code/quantum_fold.glsl",
+    "code/biological_fold.glsl",
+    "code/sacred_origami.glsl"
+  ],
+  "parameter_space": {
+    "foldAngle": {"type": "float", "range": [0.0, 180.0], "default": 90.0},
+    "creaseDensity": {"type": "float", "range": [1.0, 100.0], "default": 20.0},
+    "mountainRatio": {"type": "float", "range": [0.3, 0.7], "default": 0.5},
+    "curvature": {"type": "float", "range": [0.0, 1.0], "default": 0.0},
+    "tessellationType": {"type": "enum", "options": ["miura", "resch", "waterbomb", "yoshimura", "custom"], "default": "miura"},
+    "foldSequence": {"type": "enum", "options": ["auto", "manual"], "default": "auto"},
+    "paperColor": {"type": "enum", "options": ["white", "kraft", "washi", "metallic"], "default": "white"},
+    "creaseVisibility": {"type": "float", "range": [0.0, 1.0], "default": 0.8},
+    "shadowDepth": {"type": "float", "range": [0.0, 1.0], "default": 0.5},
+    "origamiStyle": {"type": "enum", "options": ["geometric", "organic", "modular", "curved"], "default": "geometric"},
+    "showMath": {"type": "bool", "default": false}
+  },
+  "documentation": [
+    "docs/origami_math.md",
+    "docs/tessellations.md",
+    "docs/computational_origami.md",
+    "docs/origami_artists.md",
+    "docs/paper_physics.md"
+  ],
+  "artistic_keywords": [
+    "origami",
+    "crease pattern",
+    "paper folding",
+    "tessellation",
+    "Robert Lang",
+    "Miura-ori",
+    "rigid origami",
+    "developable surface",
+    "modular origami",
+    "sacred folding"
+  ]
+}
