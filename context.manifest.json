@@ -7,12 +7,24 @@
   "primary_concepts": [
     "Crease patterns (CP) with mountain/valley assignment",
     "Maekawa and Kawasaki theorems",
-    "Rigid origami constraints",
-    "Miura-ori tessellation",
-    "Curved folding (David Huffman)",
-    "TreeMaker / circle packing",
-    "Developable surfaces",
-    "Flat-foldability verification"
+    "Rigid origami constraints and mechanisms",
+    "Miura-ori tessellation (negative Poisson ratio, single DOF)",
+    "Waterbomb tessellation (auxetic, 1-DOF)",
+    "Yoshimura diamond-fold cylindrical pattern",
+    "Ron Resch triangular tessellation (doubly-curved)",
+    "Kresling twist-fold tower (height-rotation coupling)",
+    "Curved folding: differential geometry (David Huffman)",
+    "Geodesic curvature constraint for curved creases",
+    "TreeMaker / circle packing (Robert Lang)",
+    "Developable surfaces (K=0 everywhere)",
+    "Flat-foldability verification (NP-hard globally)",
+    "Modular origami: Sonobe, PHiZZ, kusudama",
+    "Thick-panel origami engineering (offset, gap, taper, membrane)",
+    "Deployable structures: solar panels, stents, shelters",
+    "Gyrification: cortical folding as origami",
+    "Islamic geometric patterns as crease systems",
+    "Origami architecture: kinetic facades, folded plates",
+    "Fold sequences: bases, atomic folds, sequencing complexity"
   ],
   "blend_suggestions": [
     "sacred_geometry",
@@ -32,7 +44,17 @@
     "code/crumple_pattern.glsl",
     "code/quantum_fold.glsl",
     "code/biological_fold.glsl",
-    "code/sacred_origami.glsl"
+    "code/sacred_origami.glsl",
+    "code/waterbomb_tessellation.glsl",
+    "code/yoshimura_pattern.glsl",
+    "code/resch_pattern.glsl",
+    "code/kresling_tower.glsl",
+    "code/modular_origami.glsl",
+    "code/deployable_structure.glsl",
+    "code/islamic_crease.glsl",
+    "code/origami_architecture.glsl",
+    "code/neural_fold.glsl",
+    "code/thick_origami.glsl"
   ],
   "parameter_space": {
     "foldAngle": {"type": "float", "range": [0.0, 180.0], "default": 90.0},
@@ -52,7 +74,12 @@
     "docs/tessellations.md",
     "docs/computational_origami.md",
     "docs/origami_artists.md",
-    "docs/paper_physics.md"
+    "docs/paper_physics.md",
+    "docs/curved_crease_geometry.md",
+    "docs/rigid_origami_engineering.md",
+    "docs/modular_origami.md",
+    "docs/origami_architecture.md",
+    "docs/fold_sequences.md"
   ],
   "artistic_keywords": [
     "origami",
@@ -64,6 +91,25 @@
     "rigid origami",
     "developable surface",
     "modular origami",
-    "sacred folding"
+    "sacred folding",
+    "curved crease",
+    "David Huffman",
+    "Kresling tower",
+    "Yoshimura pattern",
+    "waterbomb tessellation",
+    "Ron Resch",
+    "deployable structure",
+    "solar panel",
+    "kinetic facade",
+    "Islamic geometry",
+    "muqarnas",
+    "Sonobe unit",
+    "PHiZZ unit",
+    "gyrification",
+    "cortical folding",
+    "thick origami",
+    "fold sequence",
+    "bird base",
+    "frog base"
   ]
 }
